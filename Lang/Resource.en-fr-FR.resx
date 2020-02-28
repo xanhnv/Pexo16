@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="(Max. 40 charaters and can't have &lt;&gt;?/:&quot;|\*)" xml:space="preserve">
+    <value>(Max 40 caractères et ne peut pas avoir &lt;&gt;? /: "| \ *)</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Sur</value>
+  </data>
+  <data name="Alarm" xml:space="preserve">
+    <value>Alarme</value>
+  </data>
+  <data name="Alarm Channel" xml:space="preserve">
+    <value>Canal d'alarme</value>
+  </data>
+  <data name="Alarm max of channel" xml:space="preserve">
+    <value>Alarme max de canal</value>
+  </data>
+  <data name="Alarm min of channel" xml:space="preserve">
+    <value>Alarme min de la chaîne</value>
+  </data>
+  <data name="All Data of" xml:space="preserve">
+    <value>Toutes les données de</value>
+  </data>
+  <data name="All Data will be lost. Do you want to save it before erasing?" xml:space="preserve">
+    <value>Toutes les données seront perdues. Voulez-vous le sauvegarder avant de l'effacer?</value>
+  </data>
+  <data name="Auto Adjust Daylight Time" xml:space="preserve">
+    <value>Réglage automatique de l'heure d'été</value>
+  </data>
+  <data name="Average" xml:space="preserve">
+    <value>Moyenne</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Feuilleter</value>
+  </data>
+  <data name="Bulk programming" xml:space="preserve">
+    <value>Programmation en bloc</value>
+  </data>
+  <data name="Calib" xml:space="preserve">
+    <value>Calib</value>
+  </data>
+  <data name="can not be empty" xml:space="preserve">
+    <value>ne peux pas être vide</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Cannot read Location, Serial, Description" xml:space="preserve">
+    <value>Impossible de lire l'emplacement, la série, la description</value>
+  </data>
+  <data name="Cascade all" xml:space="preserve">
+    <value>Cascade tous</value>
+  </data>
+  <data name="Chanel" xml:space="preserve">
+    <value>Chanel</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Changement</value>
+  </data>
+  <data name="Change Color" xml:space="preserve">
+    <value>Changer de couleur</value>
+  </data>
+  <data name="Change Unit" xml:space="preserve">
+    <value>Changer l'unité</value>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="Channel Description" xml:space="preserve">
+    <value>Description de la chaîne</value>
+  </data>
+  <data name="Channel's description can not be over 40 characters" xml:space="preserve">
+    <value>La description de la chaîne ne peut pas dépasser 40 caractères</value>
+  </data>
+  <data name="Channel:" xml:space="preserve">
+    <value>Canal:</value>
+  </data>
+  <data name="Check All" xml:space="preserve">
+    <value>Vérifie tout</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Cloud setting" xml:space="preserve">
+    <value>Réglage du nuage</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Couleur</value>
+  </data>
+  <data name="Comment cannot be over 200 characters" xml:space="preserve">
+    <value>Le commentaire ne peut pas dépasser 200 caractères</value>
+  </data>
+  <data name="Comment:" xml:space="preserve">
+    <value>Commentaire:</value>
+  </data>
+  <data name="Computer Time" xml:space="preserve">
+    <value>Heure de l'ordinateur</value>
+  </data>
+  <data name="Connect to device fail" xml:space="preserve">
+    <value>Se connecter à l'appareil échoue</value>
+  </data>
+  <data name="Copy To Clipboard" xml:space="preserve">
+    <value>Copier dans le presse-papier</value>
+  </data>
+  <data name="Current Clock" xml:space="preserve">
+    <value>Horloge actuelle</value>
+  </data>
+  <data name="Current Value" xml:space="preserve">
+    <value>Valeur actuelle</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Tableau de bord</value>
+  </data>
+  <data name="Data offset" xml:space="preserve">
+    <value>Data offset</value>
+  </data>
+  <data name="Data offset cannot over 25.5" xml:space="preserve">
+    <value>Le décalage de données ne peut pas dépasser</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>journée</value>
+  </data>
+  <data name="Delay Start:" xml:space="preserve">
+    <value>Départ différé:</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>La description</value>
+  </data>
+  <data name="Description can not be over 20 characters" xml:space="preserve">
+    <value>La description ne peut pas dépasser 20 caractères...</value>
+  </data>
+  <data name="Description can't contain any of the following characters" xml:space="preserve">
+    <value>La description ne peut contenir aucun des caractères suivants</value>
+  </data>
+  <data name="Description of Recording" xml:space="preserve">
+    <value>Description de l'enregistrement</value>
+  </data>
+  <data name="Description of this channel can not be over 40 characters" xml:space="preserve">
+    <value>La description de cette chaîne ne peut pas dépasser 40 caractères</value>
+  </data>
+  <data name="Do you want to stop logging Data" xml:space="preserve">
+    <value>Voulez-vous arrêter la journalisation des données</value>
+  </data>
+  <data name="Downloading..." xml:space="preserve">
+    <value>Téléchargement...</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="Duration cannot be empty" xml:space="preserve">
+    <value>La durée ne peut pas être vide</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>modifier</value>
+  </data>
+  <data name="Edit Comment" xml:space="preserve">
+    <value>Modifier le commentaire</value>
+  </data>
+  <data name="Edit Title" xml:space="preserve">
+    <value>Modifier le titre</value>
+  </data>
+  <data name="Elapse" xml:space="preserve">
+    <value>Elapse</value>
+  </data>
+  <data name="Elapsed Time on X Axis" xml:space="preserve">
+    <value>Temps écoulé sur l'axe X</value>
+  </data>
+  <data name="Email address not formatted correctly" xml:space="preserve">
+    <value>L'adresse e-mail n'est pas formatée correctement</value>
+  </data>
+  <data name="Emails are too long to save" xml:space="preserve">
+    <value>Les courriels sont trop longs pour sauver</value>
+  </data>
+  <data name="End setting fail" xml:space="preserve">
+    <value>Le paramètre de fin échoue</value>
+  </data>
+  <data name="Enter Received Email Please" xml:space="preserve">
+    <value>Enter Received Email Please</value>
+  </data>
+  <data name="Erase All Data" xml:space="preserve">
+    <value>Effacer toutes les données</value>
+  </data>
+  <data name="Erase Data" xml:space="preserve">
+    <value>Efface les données</value>
+  </data>
+  <data name="Erase fail" xml:space="preserve">
+    <value>Effacer échouer</value>
+  </data>
+  <data name="Erase fail. Logger is recording" xml:space="preserve">
+    <value>Effacer échouer. Le Logger enregistre</value>
+  </data>
+  <data name="Erase Setting" xml:space="preserve">
+    <value>Effacer le paramètre</value>
+  </data>
+  <data name="Erase Successfully" xml:space="preserve">
+    <value>Effacer avec succès</value>
+  </data>
+  <data name="Erasing...Please wait" xml:space="preserve">
+    <value>Effacement ... Veuillez patienter</value>
+  </data>
+  <data name="Error to save file" xml:space="preserve">
+    <value>Effacement ... Veuillez patienter...</value>
+  </data>
+  <data name="Event Log" xml:space="preserve">
+    <value>Journal des événements</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Sortie</value>
+  </data>
+  <data name="Export data" xml:space="preserve">
+    <value>Exporter des données</value>
+  </data>
+  <data name="fail" xml:space="preserve">
+    <value>échouer</value>
+  </data>
+  <data name="Fail to save file" xml:space="preserve">
+    <value>Impossible d'enregistrer le fichier</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="File has been saved successfully" xml:space="preserve">
+    <value>Le fichier a été enregistré avec succès</value>
+  </data>
+  <data name="File is saved successfully" xml:space="preserve">
+    <value>Le fichier est enregistré avec succès</value>
+  </data>
+  <data name="File not found" xml:space="preserve">
+    <value>Fichier non trouvé</value>
+  </data>
+  <data name="Firmware version" xml:space="preserve">
+    <value>Version du firmware</value>
+  </data>
+  <data name="Full scale" xml:space="preserve">
+    <value>Grandeur nature</value>
+  </data>
+  <data name="Full screen" xml:space="preserve">
+    <value>Plein écran</value>
+  </data>
+  <data name="General Information" xml:space="preserve">
+    <value>Informations générales</value>
+  </data>
+  <data name="General setting" xml:space="preserve">
+    <value>Paramètre général</value>
+  </data>
+  <data name="Graph" xml:space="preserve">
+    <value>Graphique</value>
+  </data>
+  <data name="Graph and Summary Information" xml:space="preserve">
+    <value>Graphique et résumé des informations</value>
+  </data>
+  <data name="Graph Title" xml:space="preserve">
+    <value>Titre du graphique</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>la grille</value>
+  </data>
+  <data name="Hardware version" xml:space="preserve">
+    <value>Version matérielle</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Aidez-moi</value>
+  </data>
+  <data name="High alarm limit" xml:space="preserve">
+    <value>Limite d'alarme haute</value>
+  </data>
+  <data name="Highest" xml:space="preserve">
+    <value>Le plus élevé</value>
+  </data>
+  <data name="Horizontal Grid" xml:space="preserve">
+    <value>Grille horizontale</value>
+  </data>
+  <data name="Humidity" xml:space="preserve">
+    <value>Humidité</value>
+  </data>
+  <data name="Language setting" xml:space="preserve">
+    <value>Paramètres de langue</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Emplacement</value>
+  </data>
+  <data name="Location can not be over 40 characters" xml:space="preserve">
+    <value>L'emplacement ne peut pas dépasser 40 caractères</value>
+  </data>
+  <data name="Location can't contain any of the following characters" xml:space="preserve">
+    <value>L'emplacement ne peut contenir aucun des caractères suivants</value>
+  </data>
+  <data name="Location setting" xml:space="preserve">
+    <value>Paramètre de localisation</value>
+  </data>
+  <data name="Logger" xml:space="preserve">
+    <value>Logger</value>
+  </data>
+  <data name="Logger Clock" xml:space="preserve">
+    <value>Logger Clock</value>
+  </data>
+  <data name="Logger Initialization" xml:space="preserve">
+    <value>Logger Initialisation</value>
+  </data>
+  <data name="Logger setting Time" xml:space="preserve">
+    <value>Heure de réglage de l'enregistreur</value>
+  </data>
+  <data name="Logging Status fail" xml:space="preserve">
+    <value>L'état de journalisation échoue</value>
+  </data>
+  <data name="Low alarm limit" xml:space="preserve">
+    <value>Limite d'alarme basse</value>
+  </data>
+  <data name="Lowest" xml:space="preserve">
+    <value>Le plus bas</value>
+  </data>
+  <data name="Max 10 digits" xml:space="preserve">
+    <value>Max 10 chiffres</value>
+  </data>
+  <data name="Max Alarm" xml:space="preserve">
+    <value>Alarme maximale</value>
+  </data>
+  <data name="Max alarm of channel" xml:space="preserve">
+    <value>Max alarme de la chaîne</value>
+  </data>
+  <data name="Max value is wrong" xml:space="preserve">
+    <value>La valeur maximale est erronée</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="Maximum: 10 emails" xml:space="preserve">
+    <value>Maximum: 10 emails</value>
+  </data>
+  <data name="Measurement Interval" xml:space="preserve">
+    <value>Intervalle de mesure</value>
+  </data>
+  <data name="Measurements:" xml:space="preserve">
+    <value>Des mesures:</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Min Alarm" xml:space="preserve">
+    <value>Min alarme</value>
+  </data>
+  <data name="Min alarm of channel" xml:space="preserve">
+    <value>Min alarme de la chaîne</value>
+  </data>
+  <data name="Min value is wrong" xml:space="preserve">
+    <value>La valeur minimale est erronée</value>
+  </data>
+  <data name="Minimum" xml:space="preserve">
+    <value>Le minimum</value>
+  </data>
+  <data name="Model Number" xml:space="preserve">
+    <value>Numéro de modèle</value>
+  </data>
+  <data name="MultiSetting" xml:space="preserve">
+    <value>MultiSetting</value>
+  </data>
+  <data name="must higher than min alarm of channel" xml:space="preserve">
+    <value>doit plus que min alarme du canal</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>prénom</value>
+  </data>
+  <data name="Name cannot be empty" xml:space="preserve">
+    <value>Le nom ne peut pas être vide</value>
+  </data>
+  <data name="Netmask cannot be empty" xml:space="preserve">
+    <value>Netmask cannot be empty</value>
+  </data>
+  <data name="Network Setting" xml:space="preserve">
+    <value>Network Setting</value>
+  </data>
+  <data name="No Alarm" xml:space="preserve">
+    <value>No Alarm</value>
+  </data>
+  <data name="No Data. Do you want to continue?" xml:space="preserve">
+    <value>Pas de données. Voulez-vous continuer?</value>
+  </data>
+  <data name="No Description Input" xml:space="preserve">
+    <value>Pas de données. Voulez-vous continuer?</value>
+  </data>
+  <data name="No Device" xml:space="preserve">
+    <value>Aucun dispositif</value>
+  </data>
+  <data name="No Location Input" xml:space="preserve">
+    <value>No Location Input</value>
+  </data>
+  <data name="Number of measurements above high alarm limit:" xml:space="preserve">
+    <value>Nombre de mesures au-dessus de la limite d'alarme haute:</value>
+  </data>
+  <data name="Number of measurements below low alarm limit:" xml:space="preserve">
+    <value>Nombre de mesures en dessous de la limite d'alarme basse:</value>
+  </data>
+  <data name="Number of Measurements:" xml:space="preserve">
+    <value>Nombre de mesures:</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="One file is opening!" xml:space="preserve">
+    <value>One file is opening!</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="Open USB fail" xml:space="preserve">
+    <value>Ouvrir USB échouer</value>
+  </data>
+  <data name="Open USB fail. Please try again." xml:space="preserve">
+    <value>L'ouverture de l'USB échoue. Veuillez réessayer.</value>
+  </data>
+  <data name="Pass cannot be empty" xml:space="preserve">
+    <value>Le laissez-passer ne peut pas être vide</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="Please choose one of channels" xml:space="preserve">
+    <value>Veuillez choisir l'une des chaînes</value>
+  </data>
+  <data name="Please select at least one device to continue" xml:space="preserve">
+    <value>Veuillez sélectionner au moins un appareil pour continuer</value>
+  </data>
+  <data name="Please set delay time to start recording" xml:space="preserve">
+    <value>Please set delay time to start recording</value>
+  </data>
+  <data name="Please set record time" xml:space="preserve">
+    <value>Please set record time</value>
+  </data>
+  <data name="Please set value to calib" xml:space="preserve">
+    <value>Please set value to calib</value>
+  </data>
+  <data name="Please start logging to view data with realtime" xml:space="preserve">
+    <value>Please start logging to view data with realtime</value>
+  </data>
+  <data name="Please stop recording first and erase Data logger before write setting" xml:space="preserve">
+    <value>Please stop recording first and erase Data logger before write setting</value>
+  </data>
+  <data name="Please try again" xml:space="preserve">
+    <value>Veuillez réessayer</value>
+  </data>
+  <data name="Port cannot be empty" xml:space="preserve">
+    <value>Port cannot be empty</value>
+  </data>
+  <data name="Port cannot be over 5 digits" xml:space="preserve">
+    <value>Port cannot be over 5 digits</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Impression</value>
+  </data>
+  <data name="Print Preview" xml:space="preserve">
+    <value>Aperçu avant impression</value>
+  </data>
+  <data name="Read" xml:space="preserve">
+    <value>Lis</value>
+  </data>
+  <data name="Read data fail" xml:space="preserve">
+    <value>Lire les données échouer</value>
+  </data>
+  <data name="Read data fail! Please try to read logger again" xml:space="preserve">
+    <value>Lire les données échouent! Veuillez réessayer de lire le journal</value>
+  </data>
+  <data name="Read description" xml:space="preserve">
+    <value>Lis la description</value>
+  </data>
+  <data name="Read Description Channel" xml:space="preserve">
+    <value>Read Description Channel</value>
+  </data>
+  <data name="Read description fail" xml:space="preserve">
+    <value>Lire la description échoue</value>
+  </data>
+  <data name="Read Description of Channel in this device fail" xml:space="preserve">
+    <value>Read Description of Channel in this device fail</value>
+  </data>
+  <data name="Read Email Setting fail" xml:space="preserve">
+    <value>Read Email Setting fail</value>
+  </data>
+  <data name="Read Location" xml:space="preserve">
+    <value>Read Location</value>
+  </data>
+  <data name="Read Location fail" xml:space="preserve">
+    <value>Read Location fail</value>
+  </data>
+  <data name="Read Location, Serial, Description Fail" xml:space="preserve">
+    <value>Read Location, Serial, Description Fail</value>
+  </data>
+  <data name="Read Logger" xml:space="preserve">
+    <value>Lire le journal</value>
+  </data>
+  <data name="Read Serial fail" xml:space="preserve">
+    <value>Read Serial fail</value>
+  </data>
+  <data name="Read Setting" xml:space="preserve">
+    <value>Lire le paramètre</value>
+  </data>
+  <data name="Read setting fail" xml:space="preserve">
+    <value>La lecture échoue</value>
+  </data>
+  <data name="Read TimeZone fail" xml:space="preserve">
+    <value>Lire TimeZone échoue</value>
+  </data>
+  <data name="Reading.....Please wait" xml:space="preserve">
+    <value>Lecture ..... Veuillez patienter</value>
+  </data>
+  <data name="Realtime" xml:space="preserve">
+    <value>Temps réél</value>
+  </data>
+  <data name="Recording" xml:space="preserve">
+    <value>Enregistrement</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="Reset fail" xml:space="preserve">
+    <value>Reset fail</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Courir</value>
+  </data>
+  <data name="Same Channel's Desc for all device" xml:space="preserve">
+    <value>Desc de la même chaîne pour tous les appareils</value>
+  </data>
+  <data name="Same Desc. and Loc. for all device" xml:space="preserve">
+    <value>Same Desc. and Loc. for all device</value>
+  </data>
+  <data name="Sample interval" xml:space="preserve">
+    <value>Intervalle d'échantillon</value>
+  </data>
+  <data name="Sample Interval:" xml:space="preserve">
+    <value>Sample Interval:</value>
+  </data>
+  <data name="Sampling rate" xml:space="preserve">
+    <value>Taux d'échantillonnage</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>sauvegarder</value>
+  </data>
+  <data name="Save as" xml:space="preserve">
+    <value>Enregistrer sous</value>
+  </data>
+  <data name="Save file fail" xml:space="preserve">
+    <value>Enregistrer le fichier échoue</value>
+  </data>
+  <data name="Save file is cancelled. Device will not be erased." xml:space="preserve">
+    <value>Enregistrer le fichier est annulé L'appareil ne sera pas effacé.</value>
+  </data>
+  <data name="Saving file is cancelled. Cannot open chart" xml:space="preserve">
+    <value>Saving file is cancelled. Cannot open chart</value>
+  </data>
+  <data name="Scan Device" xml:space="preserve">
+    <value>Scanner le périphérique</value>
+  </data>
+  <data name="sec" xml:space="preserve">
+    <value>seconde</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="Sending...Please wait" xml:space="preserve">
+    <value>Envoi en cours ... Merci de patienter</value>
+  </data>
+  <data name="Serial can not be over 10 characters" xml:space="preserve">
+    <value>La série ne peut pas dépasser 10 caractères</value>
+  </data>
+  <data name="Serial can't be empty" xml:space="preserve">
+    <value>La série ne peut pas être vide</value>
+  </data>
+  <data name="Serial can't contain any of the following characters" xml:space="preserve">
+    <value>Serial ne peut contenir aucun des caractères suivants</value>
+  </data>
+  <data name="Serial number" xml:space="preserve">
+    <value>Numéro de série</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Réglage</value>
+  </data>
+  <data name="Setting Calib fail" xml:space="preserve">
+    <value>Le réglage de Calib échoue</value>
+  </data>
+  <data name="Setting Information:" xml:space="preserve">
+    <value>Informations de réglage:</value>
+  </data>
+  <data name="Setting successful" xml:space="preserve">
+    <value>Réglage réussi</value>
+  </data>
+  <data name="Show chart area" xml:space="preserve">
+    <value>Afficher la zone de graphique</value>
+  </data>
+  <data name="Show password" xml:space="preserve">
+    <value>Montrer le mot de passe</value>
+  </data>
+  <data name="Show Value" xml:space="preserve">
+    <value>Afficher la valeur</value>
+  </data>
+  <data name="Show/Hide Legend" xml:space="preserve">
+    <value>Afficher / masquer la légende</value>
+  </data>
+  <data name="Start Delay" xml:space="preserve">
+    <value>Départ différé</value>
+  </data>
+  <data name="Start delay cannot be empty" xml:space="preserve">
+    <value>Le délai de démarrage ne peut pas être vide</value>
+  </data>
+  <data name="Start logging fail" xml:space="preserve">
+    <value>Démarrer la journalisation échouer</value>
+  </data>
+  <data name="Start Time:" xml:space="preserve">
+    <value>Heure de début:</value>
+  </data>
+  <data name="Static IP cannot be empty" xml:space="preserve">
+    <value>Static IP cannot be empty</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Arrêtez</value>
+  </data>
+  <data name="Stop Logging" xml:space="preserve">
+    <value>Arrêter la journalisation</value>
+  </data>
+  <data name="Stop logging fail" xml:space="preserve">
+    <value>Arrêter la journalisation échouer</value>
+  </data>
+  <data name="Stop logging successfully" xml:space="preserve">
+    <value>Arrêtez la journalisation avec succès</value>
+  </data>
+  <data name="Stop Time:" xml:space="preserve">
+    <value>Temps d'arrêt:</value>
+  </data>
+  <data name="Successfully" xml:space="preserve">
+    <value>Avec succès</value>
+  </data>
+  <data name="Summary Information" xml:space="preserve">
+    <value>Informations résumées</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Température</value>
+  </data>
+  <data name="TIME" xml:space="preserve">
+    <value>TEMPS</value>
+  </data>
+  <data name="Time Information:" xml:space="preserve">
+    <value>Information de temps:</value>
+  </data>
+  <data name="Time over high alarm limit:" xml:space="preserve">
+    <value>Temps au-dessus de la limite d'alarme haute:</value>
+  </data>
+  <data name="Time over low alarm limit:" xml:space="preserve">
+    <value>Temps au-dessus de la limite d'alarme basse:</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="Title cannot be over 50 characters" xml:space="preserve">
+    <value>Le titre ne peut pas dépasser 50 caractères</value>
+  </data>
+  <data name="To use the default Title, leave it blank" xml:space="preserve">
+    <value>Pour utiliser le titre par défaut, laissez-le vide</value>
+  </data>
+  <data name="Toolbar" xml:space="preserve">
+    <value>Barre d'outils</value>
+  </data>
+  <data name="Uncheck All" xml:space="preserve">
+    <value>Décocher tout</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unité</value>
+  </data>
+  <data name="VALUE" xml:space="preserve">
+    <value>VALEUR</value>
+  </data>
+  <data name="Vertical Grid" xml:space="preserve">
+    <value>Grille verticale</value>
+  </data>
+  <data name="View Data" xml:space="preserve">
+    <value>Afficher les données</value>
+  </data>
+  <data name="View Summary Infomation" xml:space="preserve">
+    <value>Afficher les informations de résumé</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="Website Marathon" xml:space="preserve">
+    <value>Marathon du site</value>
+  </data>
+  <data name="Wifi name cannot be empty" xml:space="preserve">
+    <value>Le nom Wifi ne peut pas être vide</value>
+  </data>
+  <data name="Wifi password cannot be empty" xml:space="preserve">
+    <value>Le mot de passe Wifi ne peut pas être vide</value>
+  </data>
+  <data name="will be lost. Do you want to save Data before erasing?" xml:space="preserve">
+    <value>sera perdu. Voulez-vous enregistrer les données avant de les effacer?</value>
+  </data>
+  <data name="Windows" xml:space="preserve">
+    <value>les fenêtres</value>
+  </data>
+  <data name="Write date and Timezone fail" xml:space="preserve">
+    <value>La date d'écriture et le fuseau horaire échouent</value>
+  </data>
+  <data name="Write date and Timezone successfully" xml:space="preserve">
+    <value>Ecrire la date et le fuseau horaire avec succès</value>
+  </data>
+  <data name="Write Description of Channel fail" xml:space="preserve">
+    <value>Écrire la description de l'échec du canal</value>
+  </data>
+  <data name="Write Description of Channel successfully" xml:space="preserve">
+    <value>Ecrire une description de Channel faila...</value>
+  </data>
+  <data name="Write Description successfully" xml:space="preserve">
+    <value>Écrire la description avec succès</value>
+  </data>
+  <data name="Write done" xml:space="preserve">
+    <value>Écrire terminé</value>
+  </data>
+  <data name="Write IP fail" xml:space="preserve">
+    <value>Write IP fail</value>
+  </data>
+  <data name="Write Location successfully" xml:space="preserve">
+    <value>Write Location successfully</value>
+  </data>
+  <data name="Write Location, Description fail" xml:space="preserve">
+    <value>Write Location, Description fail</value>
+  </data>
+  <data name="Write Location, Description successfully" xml:space="preserve">
+    <value>Write Location, Description successfully</value>
+  </data>
+  <data name="Write Name fail" xml:space="preserve">
+    <value>Write Name fail</value>
+  </data>
+  <data name="Write pass fail" xml:space="preserve">
+    <value>Write pass fail</value>
+  </data>
+  <data name="Write Port fail" xml:space="preserve">
+    <value>Write Port fail</value>
+  </data>
+  <data name="Write Setting" xml:space="preserve">
+    <value>Paramètre d'écriture</value>
+  </data>
+  <data name="Write setting Channel fail" xml:space="preserve">
+    <value>Write setting Channel fail</value>
+  </data>
+  <data name="Write setting Channel successfully" xml:space="preserve">
+    <value>Write setting Channel successfully</value>
+  </data>
+  <data name="Write Setting fail" xml:space="preserve">
+    <value>Le paramètre d'écriture échoue</value>
+  </data>
+  <data name="Write setting successfully" xml:space="preserve">
+    <value>Écrit les paramètres avec succès</value>
+  </data>
+  <data name="Writing....Please wait" xml:space="preserve">
+    <value>Ecrire .... Veuillez patienter</value>
+  </data>
+  <data name="Writting: Inhibit. Data was not erased" xml:space="preserve">
+    <value>Écriture: Inhiber. Les données n'ont pas été effacées</value>
+  </data>
+</root>
